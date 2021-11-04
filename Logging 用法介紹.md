@@ -13,3 +13,5 @@ logger最長用的操作有兩類：配置和傳送日誌訊息。
 logging.getLogger(name)
 '''*
 獲取logger物件，如果不指定name則返回root物件，多次使用相同的name呼叫getLogger方法返回同一個logger物件。
+
+handler：將日誌記錄（log record）傳送到合適的目的地（destination），比如檔案，socket等。一個logger物件可以通過addHandler方法新增0到多個handler，每個handler又可以定義不同日誌級別，以實現日誌分級過濾顯示。
