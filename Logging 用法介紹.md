@@ -17,5 +17,7 @@ logging.getLogger(name)
 
 ## handler
 `handler：將日誌記錄（log record）傳送到合適的目的地（destination）`
+
 `比如檔案:socket等。一個logger物件可以通過addHandler方法新增0到多個handler`
+
 `每個handler又可以定義不同日誌級別，以實現日誌分級過濾顯示。`
