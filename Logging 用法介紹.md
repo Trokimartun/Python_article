@@ -6,10 +6,10 @@ logging模組與log4j的機制是一樣的，只是具體的實現細節不同�
 
 *模組提供logger，handler，filter，formatter。
 
-'logger：提供日誌介面，供應用程式碼使用。'
-'logger最長用的操作有兩類：配置和傳送日誌訊息。'
+logger：提供日誌介面，供應用程式碼使用。
+logger最長用的操作有兩類：配置和傳送日誌訊息。
 可以通過
-'''
+'''py
 logging.getLogger(name)
 '''
 獲取logger物件，如果不指定name則返回root物件，多次使用相同的name呼叫getLogger方法返回同一個logger物件。
