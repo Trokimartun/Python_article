@@ -1,3 +1,4 @@
+**bold**
 logging模組簡介
 
 Python的logging模組提供了通用的日誌系統，可以方便第三方模組或者是應用使用。
