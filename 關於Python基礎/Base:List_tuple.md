@@ -1,7 +1,7 @@
 
 ```py
 man_tuple = ("陽光", "空氣", "水", "食物")
-nman_list = ["sun","air","water","food"]
+man_list = ["sun","air","water","food"]
 tuple_to_list = list(man_tuple)
 list_to_tuple = tuple(man_list)
 print(list(tuple_to_list))
