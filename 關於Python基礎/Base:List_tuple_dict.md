@@ -41,6 +41,7 @@ print(list(list_to_tuple))
 list和Tuple都是使用數字取得元素值的方式，如果想要用其他key值來取值就可以使用Dict
 語法：{key1:value1 [,key2:value2,…]}
 
-
+man_dict = {"hot":"sun","lique":"water","breath":air}
+print(ironman_dict["hot"])
 
 [參考資料](https://ithelp.ithome.com.tw/articles/10200547)
