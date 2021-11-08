@@ -44,4 +44,7 @@ list和Tuple都是使用數字取得元素值的方式，如果想要用其他ke
 man_dict = {"hot":"sun","lique":"water","breath":air}
 print(ironman_dict["hot"])
 
+man_dict.clear() #刪除所有元素
+print(man_dict)
+
 [參考資料](https://ithelp.ithome.com.tw/articles/10200547)
