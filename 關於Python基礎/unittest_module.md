@@ -23,7 +23,7 @@ if __name__ == '__main__':
     unittest.main()
 ```
 
-輸出：
+輸出：  
 F
 ======================================================================
 FAIL:test_negative (__main__.TestStringMethods)
