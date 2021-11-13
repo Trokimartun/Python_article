@@ -50,3 +50,18 @@ os.path.join(dirpath, filename) |	將 dirpath 與 filename 結合，無需自行
 os.path.dirname(path) |	回傳 path 的目錄路徑。
 os.path.basename(path) |	回傳 path 的檔案名稱。
 os.path.getsize(path)	| 回傳 path 以位元組計算的大小。
+
+以下程式先判斷目錄是否存在，如果不存在就建立新目錄，然後把文字檔案拷貝到新目錄，最後用 UNIX-Like 的系統指令 cat 印出檔案內容
+```py
+import os
+import os.path
+import shutil
+
+if not os.path.isdir("demo"):
+    os.mkdir("demo")
+    
+new_path = "demo/new.txt"
+shutil.copy("quotes.txt", new_path) 
+os.system("cat " + new_path)
+```
+
