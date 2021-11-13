@@ -67,11 +67,11 @@ os.system("cat " + new_path)
 
 於命令列執行以上程式
 ***
-$ python3 odemo02.py
-Hello world!
-There is no spoon.
-Manners maketh the man.
-You need time to know, to forgive and to love.
-And then be a simple man.
+$ python3 odemo02.py  
+Hello world!  
+There is no spoon.  
+Manners maketh the man.  
+You need time to know, to forgive and to love.  
+And then be a simple man.  
 $
 ***
